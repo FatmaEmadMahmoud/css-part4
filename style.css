@@ -1,0 +1,119 @@
+*{
+ margin:0;
+padding:0;
+box-sizing:border-box;
+position:relative;
+border:none;
+outline:none;
+}
+body{
+    direction: rtl;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+    font-family: __Cairo_Arabic_Font_626e9f,__Cairo_Arabic_Font_Fallback_626e9f;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fefefe;
+    box-shadow: 0 0 2px 2px #32323212;
+    z-index: 999;
+}
+.container {
+    float: left;
+    padding: 12px;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  justify-content: space-between;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+.container h3{
+    color: #323232;
+    font-size: calc(.5vw + 16px);
+}
+a{
+    text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+nav{
+    display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.container nav a{
+    color: #323232;
+  font-size: calc(.35vw + 12px);
+  padding: 2px;
+}
+.container nav .color{
+    color:rgb(0, 123, 255)
+}
+h1{
+    color: #323232;
+  font-size: calc(.8vw + 24px);
+  
+}
+.cont{
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.text{
+    color: #323232;
+  font-size: calc(.4vw + 16px);
+  opacity: .9;
+  margin: 12px;
+  
+}
+form{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px 0 0;
+}
+.input-{
+    width: 100%;
+}
+.input{
+    background-color: #fefefe;
+    padding: 12px 6px;
+  font-size: calc(.35vw + 12px);
+  border: 2px solid #32323232;
+  width: 100%;
+  border-radius: 4px;
+}
+.textarea{
+    height: 120px;
+    display: block;
+}
+.bnt{
+    padding: 12px 32px;
+    border-radius: 4px;
+    background-color: #323232;
+    color: #fefefe;
+    font-size: calc(.35vw + 12px);
+    cursor: pointer;
+}
+footer{
+    margin-top: auto;
+}
+footer p {
+    padding: 12px 20px;
+  text-align: center;
+  border-top: 1px solid #32323232;
+}
+.a-color{
+    color:rgb(0, 123, 255) ;
+}
